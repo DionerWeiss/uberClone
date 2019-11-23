@@ -1,26 +1,16 @@
 import React from 'react';
 
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 
 import MapView from 'react-native-maps'
+
+import Map from './components/Map'
 
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <MapView
-        style={styles.map}
-        loadingEnabled={true}
-        region={{
-          latitude: 37.78825,
-          longitude: -122.4324,
-          latitudeDelta: 0.015,
-          longitudeDelta: 0.0121,
-        }}
-      />
-      
-    </View>
+    <Map />
   )
 }
 
