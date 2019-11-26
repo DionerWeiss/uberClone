@@ -11,6 +11,8 @@ import Search from '../Search';
 import Directions from '../Directions';
 import Details from '../Details';
 
+import { apiKey } from '../../utils';
+
 import {
     Back,
     LocationBox,
@@ -23,7 +25,7 @@ import {
 import markerImage from '../../assets/marker.png';
 import backImage from '../../assets/back.png';
 
-Geocoder.init('AIzaSyCoZHdQndJjEj-pqyTT-FBEtxdIu78ASjs');
+Geocoder.init(apiKey);
 
 export default class Map extends Component {
 
