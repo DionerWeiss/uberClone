@@ -10,7 +10,7 @@ const Directions = ({ destination, origin, onReady }) => {
             destination={destination}
             origin={origin}
             onReady={onReady}
-            apikey={ apiKey }
+            apikey={apiKey}
             strokeWidth={3}
             strokeColor="#222"
         />
